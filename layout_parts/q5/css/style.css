@@ -14,8 +14,9 @@
   height: 100px;
   position: absolute;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 100px;
+  font-weight: bold;
 }
 .box8{
   background-color: #de70cf;

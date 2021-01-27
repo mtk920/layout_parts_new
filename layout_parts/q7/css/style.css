@@ -63,7 +63,6 @@
   font-size: 16px;
   box-sizing: border-box;
   width: 225px;
-
 }
 
 .allblock {
@@ -76,6 +75,7 @@
   width: 300px;
   display: inline-block;
   font-size: 16px;
+  vertical-align: top;
 }
 
 .longitem {
