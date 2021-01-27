@@ -17,17 +17,17 @@
   border: 1px solid #dedede;
 }
 
-.center tr:last-child {
+.center tfoot tr {
   border-top: 2px dashed #000;
 }
 
-tr:nth-child(odd) {
+.center tbody tr:nth-child(even) {
   background-color: #ecf1f2;
   font-size: 16px;
   line-height: 22px;
 }
 
-th {
+.center tr th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;

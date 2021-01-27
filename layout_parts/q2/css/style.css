@@ -6,15 +6,16 @@
   padding: 20px;
   box-sizing: border-box;
   background-color: #eff3f4;
+  margin: 0 auto;
 }
 
-.baloon {
+.leftimg {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.token {
+.rightimg {
   margin-left: 20px;
   margin-bottom: 10px;
   float:right;

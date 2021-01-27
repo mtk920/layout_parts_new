@@ -13,25 +13,25 @@
   box-sizing: border-box;
 }
 
-.text:before {
-  content:"";
-  position: absolute;
-  z-index: 2;
-  bottom: -20px;
-  left: 30px;
-  margin-left: -8px;
-  border: 12px solid transparent;
-  border-top: 12px solid #FFF;
-}
-
+.text:before,
 .text:after {
   content:"";
   position: absolute;
+}
+
+.text:before {
+  z-index: 2;
+  bottom: -20px;
+  border: 12px solid transparent;
+  border-top: 12px solid #FFF;
+  left: 32px;
+}
+
+.text:after {
   z-index:1;
   border: 14px solid transparent;
   border-top: 14px solid #222;
   bottom: -28px;
   left: 30px;
-  margin-left: -10px;
 }
 /* 回答はここに書いてね */

@@ -20,6 +20,7 @@
 
 .table {
   display: table-cell;
+  width: 225px;
   padding-left: 50px;
   vertical-align: middle;
 }
@@ -34,7 +35,7 @@
 }
 
 .parent_inner {
-  letter-spacing: -.4em;
+  font-size: 0;
 }
 
 .inline {
@@ -44,7 +45,6 @@
   box-sizing: border-box;
   vertical-align: middle;
   width: 225px;
-  letter-spacing: normal;
 }
 
 .inline:first-child {
@@ -69,21 +69,21 @@
 .allblock {
   width: 100%;
   box-sizing: border-box;
-  letter-spacing: -.4em;
+  font-size: 0;
 }
 
 .shortitem {
   width: 300px;
   display: inline-block;
-  letter-spacing: normal;
+  font-size: 16px;
 }
 
 .longitem {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  margin-left : -350px;
-  letter-spacing: normal;
-  padding-left: 400px;
+  margin-left : -300px;
+  padding-left: 350px;
+  font-size: 16px;
 }
 /* 回答はここに書いてね */

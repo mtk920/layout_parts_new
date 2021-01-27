@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q1 {
-  width: 900px;
+.all {
+  width: 940px;
   margin: 0 auto; 
   padding: 20px;
   background-color: #eff3f4;  
