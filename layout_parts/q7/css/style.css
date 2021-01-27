@@ -1,5 +1,89 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.float {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.float:first-child {
+  margin-left: 0;
+}
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.table {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.table:first-child {
+  padding-left: 0;
+}
+
+.container {
+  display: table;
+  margin: 0 auto;
+}
+
+.parent_inner {
+  letter-spacing: -.4em;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 225px;
+  letter-spacing: normal;
+}
+
+.inline:first-child {
+  margin-left: 0;
+}
+
+.flexcontainer {
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flexbox {
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 225px;
+
+}
+
+.allblock {
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: -.4em;
+}
+
+.shortitem {
+  width: 300px;
+  display: inline-block;
+  letter-spacing: normal;
+}
+
+.longitem {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left : -350px;
+  letter-spacing: normal;
+  padding-left: 400px;
+}
 /* 回答はここに書いてね */
